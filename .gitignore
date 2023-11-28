@@ -128,3 +128,13 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# Ignoring client files
+/public/styles/app.css
+/public/bundle.js
+...
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
